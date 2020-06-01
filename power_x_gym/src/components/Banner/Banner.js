@@ -11,7 +11,6 @@ const Banner = () => {
                         <button className="banner-btn font-weight-bold">Join us</button>
                     </div>
                     <div className="col-md-6 video h-100">
-                        
                     </div>
                 </div>
            </div>
