@@ -1,0 +1,34 @@
+.catalogue{
+    width: 100%;
+    height: 100vh;
+}
+
+.row{
+    height: 380px;
+    width: 100%;
+}
+.text{
+    color: goldenrod;
+    text-align: center;
+    margin-top: 40px;
+}
+.a{
+    text-align: center;
+    margin-top: 20px;
+}
+.card{
+    width: 30%;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+}
+.div_one{
+    background-image: url('../../Images/hipcravo-5UbIqV58CW8-unsplash.jpg');
+}
+.div_two{
+    background-image: url('../../Images/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+}
+.div_three{
+    background-image: url('../../Images/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
+}
