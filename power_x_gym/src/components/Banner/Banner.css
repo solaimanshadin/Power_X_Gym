@@ -24,6 +24,7 @@
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .video{
@@ -31,4 +32,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     z-index: 3;
+}
+h1,p{
+    font-family: 'Oswald', sans-serif;
 }

@@ -11,17 +11,17 @@ const Catalogue = () => {
           <div className="row">
                     <div className="card div_one">
                         <img  src={div_one_img} alt=""/>
-                        <h1 className="a text-white">PROGRESSION</h1>
+                        <h2 className="a text-white">PROGRESSION</h2>
                         <p className="a text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam. Odio nemo nesciunt distinctio magnam at aut expedita fugit, iste culpa, quod qui, quis doloribus magni ipsum enim modi?</p>
                     </div>
                     <div className="card div_two">
                         <img  src={div_two_img} alt=""/>
-                        <h1 className="text">WORKOUT</h1>
+                        <h2 className="text">WORKOUT</h2>
                         <p className="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam. Odio nemo nesciunt distinctio magnam at aut expedita fugit, iste culpa, quod qui, quis doloribus magni ipsum enim modi?</p>
                     </div>
                     <div className="card div_three">
                         <img  src={div_three_img} alt=""/>
-                        <h1 className="a text-white">NUTRITION</h1>
+                        <h2 className="a text-white">NUTRITION</h2>
                         <p className="a text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam. Odio nemo nesciunt distinctio magnam at aut expedita fugit, iste culpa, quod qui, quis doloribus magni ipsum enim modi?</p>
                     </div>
               </div>

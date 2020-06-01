@@ -1,0 +1,31 @@
+.training{
+    width: 100%;
+    height: 500px;
+}
+.program{
+    color: goldenrod;
+}
+
+.training-program{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.highlight-training{
+    background: goldenrod;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bruce{
+    background-image: url('../../Images/bruce-mars-gJtDg6WfMlQ-unsplash.png');
+    background-repeat: no-repeat;
+}
+.arthur{
+    background-image: url('../../Images/arthur-edelman-qfjuh4OLdxw-unsplash.jpg');
+    background-repeat: no-repeat;
+}
