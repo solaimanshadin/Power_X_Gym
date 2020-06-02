@@ -6,23 +6,23 @@ import div_three_img from '../../Images/Group 82.png';
 
 const Catalogue = () => {
     return (
-        <div className="catalogue">
+        <div className="catalogue my-5">
         <div className="container">
-          <div className="row">
-                    <div className="card div_one">
+          <div className="row text-center">
+                    <div className="card div_one py-2">
                         <img  src={div_one_img} alt=""/>
-                        <h2 className="a text-white">PROGRESSION</h2>
-                        <p className="a text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam. Odio nemo nesciunt distinctio magnam at aut expedita fugit, iste culpa, quod qui, quis doloribus magni ipsum enim modi?</p>
+                        <h3 className="text-white">PROGRESSION</h3>
+                        <p className="text-white mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam amet consectetur .</p>
                     </div>
                     <div className="card div_two">
                         <img  src={div_two_img} alt=""/>
-                        <h2 className="text">WORKOUT</h2>
-                        <p className="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam. Odio nemo nesciunt distinctio magnam at aut expedita fugit, iste culpa, quod qui, quis doloribus magni ipsum enim modi?</p>
+                        <h3 className="text">WORKOUT</h3>
+                        <p className="text-white mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam amet consectetur .</p>
                     </div>
                     <div className="card div_three">
                         <img  src={div_three_img} alt=""/>
-                        <h2 className="a text-white">NUTRITION</h2>
-                        <p className="a text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam. Odio nemo nesciunt distinctio magnam at aut expedita fugit, iste culpa, quod qui, quis doloribus magni ipsum enim modi?</p>
+                        <h3 className="text-white">NUTRITION</h3>
+                        <p className="text-white mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, suscipit numquam amet consectetur .</p>
                     </div>
               </div>
             </div>

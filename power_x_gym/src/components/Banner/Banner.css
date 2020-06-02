@@ -1,13 +1,12 @@
 .banner{
     background-image: url('../../Images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
     width: 100%;
-    height: 600px;
     background-size: cover;
     background-position: top center;
     position: relative;
 }
 
-.banner::before{
+.banner::before {
     content: "";
     position: absolute;
     top: 0;
@@ -16,15 +15,14 @@
     height: 100%;
     background: rgb(3, 2, 12);
     opacity: .8;
-
 }
+
 .banner-btn{
     background-color: goldenrod;
     width: 150px;
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
-    font-family: 'Oswald', sans-serif;
 }
 
 .video{
@@ -33,6 +31,28 @@
     background-repeat: no-repeat;
     z-index: 3;
 }
-h1,p{
-    font-family: 'Oswald', sans-serif;
+
+.btn-primary {
+    background-color: #fcd842;
+    color: #222;
+    border-color: transparent;
+    border-radius: 0;
+    font-weight: 900;
+    font-style: 2em;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+
+img.play-icon{
+    cursor: pointer;
+}
+.modal-video-body{
+    max-width: 750px !important;
+
+}
+
+@media (min-width: 777px){
+    .video{
+        height: 100%;
+    }
 }

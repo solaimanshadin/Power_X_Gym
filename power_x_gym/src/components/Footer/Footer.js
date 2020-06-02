@@ -5,6 +5,7 @@ import fb from '../../Images/bxl-facebook.png';
 import insta from '../../Images/bxl-instagram.png';
 import twitter from '../../Images/bxl-twitter.png';
 import whatsapp from '../../Images/bxl-whatsapp.png';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -14,29 +15,29 @@ const Footer = () => {
                     <h4>POWER <strong className="text-yellow">X</strong></h4>
                 </div>
                 <div className="col-2">
-                    <a className="font-weight-bold" href='/'>Need Help?</a><br/>
-                    <a href='/'>Help Center</a><br/>
-                    <a href='/signup'>Email Support</a><br/>
-                    <a href='/'>Live Chat</a><br/>
-                    <a href='/'>Gift Certificates</a><br/>
-                    <a href='/'>Send Us Feedback</a><br/>
+                    <Link className="font-weight-bold" href='/'>Need Help?</Link><br/>
+                    <Link href='/'>Help Center</Link><br/>
+                    <Link href='/signup'>Email Support</Link><br/>
+                    <Link href='/'>Live Chat</Link><br/>
+                    <Link href='/'>Gift Certificates</Link><br/>
+                    <Link href='/'>Send Us Feedback</Link><br/>
                 </div>
                 <div className="col-2">
-                    <a className="font-weight-bold" href='/'>Digital Resources</a><br/>
-                    <a href='/'>Articles</a><br/>
-                    <a href='/'>E-books</a><br/>
+                    <Link className="font-weight-bold" href='/'>Digital Resources</Link><br/>
+                    <Link href='/'>Articles</Link><br/>
+                    <Link href='/'>E-books</Link><br/>
                 </div>
                 <div className="col-2">
-                    <a className="font-weight-bold" href='/'>Contact With Us</a><br/>
-                    <a href='/'><img src={youtube} alt=""/></a>
-                    <a href='/'><img src={fb} alt=""/></a>
-                    <a href='/'><img src={insta} alt=""/></a>
-                    <a href='/'><img src={twitter} alt=""/></a>
-                    <a href='/'><img src={whatsapp} alt=""/></a><br/>
-                    <a href='/'>Forum</a><br/>
+                    <Link className="font-weight-bold" href='/'>Contact With Us</Link><br/>
+                    <Link href='/'><img src={youtube} alt=""/></Link>
+                    <Link href='/'><img src={fb} alt=""/></Link>
+                    <Link href='/'><img src={insta} alt=""/></Link>
+                    <Link href='/'><img src={twitter} alt=""/></Link>
+                    <Link href='/'><img src={whatsapp} alt=""/></Link><br/>
+                    <Link href='/'>Forum</Link><br/>
                 </div>
                 <div className="col-2">
-                    <a className="font-weight-bold" href='/'>Join Our Newsletter</a><br/>
+                    <Link className="font-weight-bold" href='/'>Join Our Newsletter</Link><br/>
                     <p>Get exclusive news,features, and updates from The Shredder Weight Loss Academy.</p>
                 </div>
             </div>
